@@ -26,10 +26,6 @@
     height: 80vh;
 }
 .sMenu{
-    background-image: url("../imagens/menu1.png");
-    background-repeat: no-repeat;
-    background-position-x:center;
-    background-position-y: center;
     width: 30%;
     margin-left: 15px;
     margin-right: 3%;
