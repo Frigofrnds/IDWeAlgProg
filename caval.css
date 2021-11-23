@@ -1,0 +1,32 @@
+section{
+    background-image: url(../AquivosGeral/imagemfundocaval.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    width: 100vh;
+}
+
+nav{
+    height: 60px;
+    
+}
+ #card{
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    font-size: 12px;
+    
+}
+
+input[type="submit"]{
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(25,2,47,0.2);
+    backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+}
+
+
+
