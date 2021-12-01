@@ -1,0 +1,345 @@
+*{
+    font-family: 'MedievalSharp', cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagens/cavaleiro/backgroundknight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#navtest{
+    position: fixed;
+    z-index: 10;
+}
+
+#dropBtEst3{
+    background-image: url(../imagens/000.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size:27px;
+}
+#dropBtEst3 :hover{
+    background-image: url(../imagens/000.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size: 30px;
+}
+.navespelho{
+    width: 5%;
+    height: 56px;
+}
+.container_corpo{
+    width: 100%;
+}
+.container_corpo_filho{
+    width: 100%;
+display: inline-flex;
+
+}
+.navLateral{
+    position: static;
+    width:400px;
+    height: 450px ;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+    color: white;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+.mago{
+    text-align: center;
+    padding-top: 15px;
+}
+.texto{
+    text-align: justify;
+    text-indent: 30px;
+    margin:5px;
+}
+.funcoes{
+    width: 100%;
+    display: inline-block;
+}
+#textofuncoes{
+    width: 100%;
+    text-align: center;
+}
+.container_funcoes{
+    width: 100%;
+}
+.container-funcoes-item{
+    width: 32%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: top 50%; 
+}
+.icone1{
+    background-image: url(../imagens/cavaleiro/ataque.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icone2{
+    background-image: url(../imagens/cavaleiro/resistencia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icone3{
+    background-image: url(../imagens/cavaleiro/forca.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.espelho2{
+    width: 20%;
+}
+.personagens{
+    background-image: url(../imagens/cavaleiro/Mknight1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y:50px; 
+    width: 180px;
+    height: 348px;
+    margin-top: 8.5%;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+
+}
+.personagens hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+.heroi{
+    text-align: center;
+    color: white;
+    height: 40px;
+    margin-bottom: 0;
+}
+.heroi h1{
+    height: 100%;
+}
+.heroi  hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.espelho3{
+    height: 261px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bt1Espelho3{
+    height: 40px;
+    width: 50px;
+    background-image: url(../imagens/left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right:30px;
+    cursor: pointer;
+}
+.bt2Espelho3{
+    height: 40px;
+    width: 50px;
+    background-image: url(../imagens/right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.container_buttonsMaleFemale{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.btt1direction{
+    height: 40px;
+    background-image: url(../imagens/male2png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+.btt2direction{
+    height: 40px;
+    background-image: url(../imagens/loop2323.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+.btt3direction{
+    height: 40px;
+    background-image: url(../imagens/female.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+.maintext{
+    height: 40vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.maintext h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.midia{
+    margin-top: 40px;
+    height: 40vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.midia div h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.footerMain{
+    margin-top: 40px;
+    width: 100%;
+    height: 36vh;
+    background-color: blueviolet;
+    border:solid 1px black;
+}
+.firstFoot{
+    height: 15vh;
+    width: 100%;
+
+}
+.secondFoot{
+    height: 15vh;
+    width: 100%;
+}
+@media screen and (max-width: 910px){
+    .espelho2{
+        width: 10%;
+    }
+    .navLateral{
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 663px){
+    .espelho2{
+        width: 5%;
+    }
+    .navLateral{
+    height: 500px ;
+    margin-left: 8%;
+    }
+}
+@media screen and (max-width: 524px){
+    .espelho2{
+        width:10px;
+    }
+    .navLateral{
+    height: 530px ;
+    margin-left: 4%;
+    }
+}
+@media screen and (max-width: 472px){
+    .espelho2{
+        width:0;
+    }
+    .navLateral{
+        height: 465px ;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .personagens{ 
+        margin-top: 500px;
+        background-color: rgba(21, 25, 29, 0.5);
+        border:solid 1px black;
+        position:absolute;
+        float:left;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: 0;
+    }
+    .espelho4{
+        width: 100%;
+        height: 402px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+    .midia{
+        width: 100%;
+        margin-left:0;
+    }
+    .midia div h1{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .espelho2{
+        width:0;
+    }
+    .navLateral{
+        height: 500px ;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .personagens{ 
+        margin-top: 540px;
+        background-color: rgba(21, 25, 29, 0.5);
+        border:solid 1px black;
+        position:absolute;
+        float:left;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: 0;
+    }
+    .espelho4{
+        width: 100%;
+        height: 402px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+    .midia{
+        width: 100%;
+        margin-left:0;
+    }
+    .midia div h1{
+        padding: 5px;
+    }
+}
