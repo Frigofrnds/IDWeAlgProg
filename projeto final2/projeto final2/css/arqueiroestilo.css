@@ -1,0 +1,582 @@
+*{
+    font-family: 'MedievalSharp', cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagens/arqueiro/arqueirobackgorund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#navtest{
+    position: fixed;
+    z-index: 10;
+}
+#dropBtEst{
+    background-image: url(../imagens/knight.png) !important;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size:27px;
+}
+#dropBtEst :hover{
+    background-image: url(../imagens/knight.png) !important;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size: 30px;
+    color: black !important;
+
+}
+#dropBtEst2{
+    background-image: url(../imagens/arqueiro.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size:27px;
+}
+#dropBtEst2 :hover{
+    background-size: 30px;
+    color: black !important;
+    background-image: url(../imagens/arqueiro.png) !important;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+
+}
+#dropBtEst3{
+    background-image: url(../imagens/mageIcon2.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px; 
+    background-size:27px;
+}
+#dropBtEst3 :hover{
+    color: black !important;
+    background-image: url(../imagens/mageIcon2.png) !important;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:14px;
+    background-size:27px;
+}
+
+
+.navespelho{
+    width: 5%;
+    height: 56px;
+}
+
+
+
+
+.container_corpo_filho{
+    width: 100%;
+    display: inline-flex;
+
+}
+
+
+
+
+.navLateral{
+    position: static;
+    width:400px;
+    height:100% ;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+    color: white;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+.mago{
+    text-align: center;
+    padding-top: 15px;
+}
+.texto{
+    text-align: justify;
+    text-indent: 30px;
+    margin:5px;
+    padding: 5px;
+}
+.funcoes{
+    width: 100%;
+    display: inline-block;
+}
+#textofuncoes{
+    text-align: center;
+}
+
+
+
+
+.container_funcoes{
+    height: 67px;
+    padding: 1px;
+}
+.container-funcoes-item{
+    width: 32%;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+
+
+.icone1{
+    padding: 5px;
+    height: 65px;
+    }
+.hoverIcone1{
+    width: 55px;
+    height: 55px;
+    background-image: url(../imagens/arqueiro/ataque.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.hoverIcone1:hover{
+
+    border-radius: 15%;
+    background-color: rgba(255, 174, 0, 0.8);
+}
+
+.spanTexto{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    position: absolute;
+    text-align:justify;
+    background-color: rgba(119, 79, 27, 0.8);
+    border:solid 1px black;
+    opacity: 0;
+}
+
+.icone1:hover .spanTexto{
+    opacity: 1;
+    z-index: 2;
+    width: 250px;
+    height: 50px;
+    top: 370px;
+    left: 13%;
+    text-indent: 30px;
+}
+
+
+
+
+.icone2{
+    padding: 5px;
+    height: 65px;
+
+}
+.hoverIcone2{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-image: url(../imagens/arqueiro/cura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone2:hover{
+    border-radius: 15%;
+    background-color: rgba(180, 173, 173, 0.8);
+}
+.spanTexto2{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    text-align:justify;
+    background-color: rgba(119, 79, 27, 0.8);
+    border:solid 1px black;
+    opacity: 0;
+}
+.icone2:hover .spanTexto2{
+    opacity: 1;
+    z-index: 2;
+    width: 250px;
+    height: 50px;
+    top: 370px;
+    left: 17%;
+    text-indent: 30px;
+}
+
+
+
+
+.icone3{
+    padding: 5px;
+    height: 65px;
+}
+.hoverIcone3{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-image: url(../imagens/arqueiro/evol.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone3:hover{
+    border-radius: 15%;
+    background-color: rgba(245, 198, 98, 0.8);
+}
+
+.spanTexto3{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    text-align:justify;
+    background-color: rgba(119, 79, 27, 0.8);
+    border:solid 1px black;
+    opacity: 0;
+}
+.hoverIcone3:hover .spanTexto3{
+    opacity: 1;
+    z-index: 2;
+    width: 250px;
+    height: 50px;
+    top: 370px;
+    left: 21%;
+    text-indent: 30px;
+}
+
+
+
+
+.espelho2{
+    width: 15%;
+}
+
+
+
+
+.personagens{
+    width: 180px;
+    height: 348px;
+    margin-top: 8.5%;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+    color: white;
+}
+.personagens hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.heroi{
+    text-align: center;
+    height: 40px;
+    margin-bottom: 0;
+}
+.heroi h1{
+    height: 100%;
+}
+.heroi  hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+.espelho3{
+    height: 261px;
+    width: 100%;
+}
+.guerreiroImg{
+    width: 100%;
+    height: 250px;
+}
+.guerreiroImg img{
+    position: absolute;
+    opacity: 0;
+}
+.guerreiroImg img.selected{
+    opacity: 1;
+}
+.container_buttonsMaleFemale{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.btt1direction{
+    background-image: url(../imagens/male2png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    margin-top: 0;
+    cursor: pointer;
+    width: 33%;
+}
+#masculino{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+.btt2direction{
+    height: 40px;
+    background-image: url(../imagens/loop2323.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+#btLoop{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+.btt3direction{
+    height: 40px;
+    background-image: url(../imagens/female.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+#feminino{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+
+
+
+
+.maintext{
+    height: 40vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.maintext h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+.midia{
+    margin-top: 40px;
+    height: 40vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.midia div h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+.footerMain{
+    margin-top: 40px;
+    width: 100%;
+    height: 36vh;
+    background-color: blueviolet;
+    border:solid 1px black;
+}
+.firstFoot{
+    height: 15vh;
+    width: 100%;
+
+}
+.secondFoot{
+    height: 15vh;
+    width: 100%;
+}
+@media screen and (max-width: 910px){
+    .espelho2{
+        width: 10%;
+    }
+    .navLateral{
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 720px){
+    .icone1:hover .spanTexto{
+        top: 62%;
+        left: 10%;
+            }
+    .hoverIcone2:hover .spanTexto2{
+        top: 62%;
+        left: 15%;
+        }
+    .hoverIcone3:hover .spanTexto3{
+        top: 62%;
+        left: 17%;
+    }
+}
+
+@media screen and (max-width: 663px){
+    .espelho2{
+        width: 5%;
+    }
+    .navLateral{
+    margin-left: 8%;
+    }
+    .icone1:hover .spanTexto{
+        top: 68%;
+        left: 10%;
+            }
+    .hoverIcone2:hover .spanTexto2{
+        top: 68%;
+        left: 15%;
+        }
+    .hoverIcone3:hover .spanTexto3{
+        top: 68%;
+        left: 17%;
+    }
+}
+@media screen and (max-width: 586px){
+    .espelho2{
+        width:10px;
+    }
+    .navLateral{
+    margin-left: 3%;
+    }
+    .icone1:hover .spanTexto{
+        top: 69%;
+        left: 5%;
+        }
+    .hoverIcone2:hover .spanTexto2{
+            top: 69%;
+            left: 5%;
+            }
+    .hoverIcone3:hover .spanTexto3{
+        top: 69%;
+        left: 5%;
+        }
+}
+@media screen and (max-width: 490px){
+    .espelho2{
+        width:0;
+    }
+    .navLateral{
+        width: 100%;
+        margin: 0.5%;
+        margin-bottom: 90px;
+    }
+    .personagens{ 
+        margin-top: 600px;
+        background-color: rgba(21, 25, 29, 0.5);
+        border:solid 1px black;
+        position:absolute;
+        float:left;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: 0;
+    }
+    .espelho4{
+        width: 100%;
+        height: 500px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0.5%;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+    .midia{
+        width: 100%;
+        margin-left:0;
+    }
+    .midia div h1{
+        padding: 5px;
+    }
+    .icone1:hover .spanTexto{
+        top:45%;
+        left: 20%;
+            }
+    .hoverIcone2:hover .spanTexto2{
+        top:45%;
+        left: 25%;
+                }
+    .hoverIcone3:hover .spanTexto3{
+        top:45%;
+        left: 30%;
+            }
+        
+}
+
+@media screen and (max-width: 320px){
+    .espelho2{
+        width:0;
+    }
+    .navLateral{
+        width: 100%;
+        margin: 0;
+        padding: 5%;
+        margin-bottom: 30px;
+    }
+    .personagens{ 
+        margin-top: 650px;
+        background-color: rgba(21, 25, 29, 0.5);
+        border:solid 1px black;
+        position:absolute;
+        float:left;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: 0;
+    }
+    .espelho4{
+        width: 100%;
+        height: 402px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+    .midia{
+        width: 100%;
+        margin-left:0;
+    }
+    .midia div h1{
+        padding: 5px;
+    }
+    .texto1{
+        width: 15%;
+    }
+    .icone1:hover .spanTexto{
+        top:55%;
+        left: 10%;
+            }
+    .hoverIcone2:hover .spanTexto2{
+        top:55%;
+        left: 15%;
+                }
+    .hoverIcone3:hover .spanTexto3{
+        top:55%;
+        left: 15%;
+            }
+}
