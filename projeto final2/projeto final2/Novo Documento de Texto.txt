@@ -1,7 +1,0 @@
-1.home
-2.forum
-3.Cavaleiro
-4.mago
-5.arqueiro
-6.monstros
-menu hambuguer
