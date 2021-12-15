@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+}
+.container_funcoes{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-funcoes-item{
+    width: 32%;
+    height: 65px;
+
+}
+.icone1{
+    width: 55px;
+    height: 55px;
+    }
+.hoverIcone1{
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.hoverIcone1:hover{
+    border-radius: 15%;
+    background-color: rgba(255, 174, 0, 0.8);
+}
+.icone2{
+    padding: 5px;
+    height: 65px;
+
+}
+.hoverIcone2{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone2:hover{
+    border-radius: 15%;
+    background-color: rgba(180, 173, 173, 0.8);
+}
+.icone3{
+    padding: 5px;
+    height: 65px;
+}
+.hoverIcone3{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone3:hover{
+    border-radius: 15%;
+    background-color: rgba(245, 198, 98, 0.8);
+}
+.container_texto{
+    display: flex;
+    text-align: center;
+}
+.texto1{
+    width: 33%;
+}
+.texto2{
+    width: 33%;
+}
+.texto3{
+    width: 33%;
+}
+.espelho2{
+    width: 15%;
+}
+
+
+
+
+.midia{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 90vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.midia div h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.midiaImage{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+#slider{
+    border:solid 1px black;
+    width: 96%;
+    height: 70vh;
+    position: relative;
+}
+#slider img{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 800ms;
+}
+#slider img.selected2{
+opacity: 1;
+}
+
+
+.Dica{
+    position: relative; 
+    margin: 30px;
+    display: inline-block;
+}
+.Dica:hover .DicaTexto{
+    visibility: visible;
+}
+.DicaTexto{
+    position: absolute;
+    visibility: hidden;
+    font-size: 15px; 
+    min-width: 100px;
+    text-align: justify;
+    background: rgba(133, 113, 0, 0.7);
+    color:rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 5px  0; 
+    border-radius: 6px; 
+    bottom: 100%; 
+    left: 50%; 
+    transform:translateX(-50%);
+    margin-bottom: 5px;
+    border:solid 1px rgb(255, 255, 255);
+}
+
+.DicaTexto:after{
+    content: " "; 
+    position: absolute; 
+    top: 100%; 
+    left: 50%; 
+    margin-left: -5px; 
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+
+
+@media screen and (max-width: 490px){
+    .midia{
+        width: 96%;
+        margin-left:0;
+        margin: 10px;
+    }
+        
+}
+

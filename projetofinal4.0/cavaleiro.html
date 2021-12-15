@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cavaleiroestilo.css">
+    <link rel="stylesheet" href="./css/estilocomum.css">
+    <link rel="stylesheet" href="./css/estilocomumpersonagens.css">
+    <title>Guerreiro</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./favIcon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favIcon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favIcon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favIcon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favIcon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favIcon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favIcon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favIcon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favIcon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favIcon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favIcon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favIcon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#846543">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#846543">
+</head>
+<body>
+    <header id="navtest" class="container-fluid">
+        <div class="row">
+            <div class="container-fluid" >
+                <nav class=" row navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">MedievalWar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown"  >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fórum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="itens.html">Itens</a>
+                            </li>
+                            <li class="nav-item dropdown bg-dark">
+                                <a class="nav-link active dropdown-toggle bg-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Personagens
+                                </a>
+                                <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+                                    <li id="dropBtEst"><a class="dropdown-item text-light text-center" href="cavaleiro.html">Guerreiro</a></li>
+                                    <li id="dropBtEst2"><a class="dropdown-item text-light text-center" href="arqueiro.html">Arqueiro</a></li>
+                                    <li id="dropBtEst3"><a class="dropdown-item text-light text-center"href="mago.html">Mago</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>   
+    </header> 
+    <div class="navespelho">
+    </div>
+
+
+
+
+    <div class="container_corpo">
+        <div class="container_corpo_filho">
+
+
+
+
+            <aside id="character" class="navLateral">
+                <div class="mago">
+                    <h1>Guerreiro</h1>
+                </div>
+                <hr>
+                <div class="texto">
+                    <p>Os Guerreiros são intrépidos e temerários! Uma coisa é certa: eles sabem usar suas armas como ninguém. Para eles, entrar em uma briga
+                            ao menos uma vez por dia é sinal de boa saúde. Seu temperamento impetuoso os transforma em paladinos do extremo, capazes de realizar 
+                            coisas maravilhosas... mas também coisas terríveis
+                    </p>
+                </div>
+                <hr>
+
+
+
+
+                <div class="funcoes">
+                    <div id="textofuncoes">
+                        <h2>funções</h2>
+                    </div>
+                </div>
+
+
+
+
+                <div class="container_funcoes">
+                    <div class=" hoverIcone1 Dica">
+                        <div class="container-funcoes-item icone1">
+                        <span class="DicaTexto"> Inflige danos consideráveis a um alvo ou área.</span>
+                    </div>
+                </div>
+                    <div class=" hoverIcone2 Dica">    
+                        <div class="container-funcoes-item hoverIcone2">
+                            <span class="DicaTexto">Recebe menos dano, e melhora a estâmina.</span>
+                        </div>              
+                    </div>
+                    <div class=" hoverIcone3 Dica">
+                        <div class="container-funcoes-item hoverIcone3">
+                            <span class="DicaTexto">Aumenta o dano, a vitalidade e resistência.</span>
+                        </div>                           
+                    </div>
+                </div>
+
+
+
+
+                <div class="container_texto">
+                    <div class="texto1"> <p>Danos</p></div>
+                    <div class="texto2"><p>Resistência</p></div>
+                    <div class="texto3"><P>Evoluir</P></div>
+                </div>
+            </aside>
+
+
+
+
+        <div class="espelho2">
+        </div>    
+            <main class="personagens">
+                <div class="heroi">
+                    <h1>
+                        Guerreiro
+                    </h1>
+                    <hr>
+                </div>
+                <div class="espelho3">
+                    <div class="guerreiroImg">
+                        <img id="iop1"  class="selected"  src="./imagens/cavaleiro/male/Mknight1.png" alt=" personagem">
+                        <img id="iop2" src="./imagens/cavaleiro/male/Mknight2.png" alt=" personagem">
+                        <img id="iop3" src="./imagens/cavaleiro/male/Mknight3.png" alt=" personagem">
+                        <img id="iop4" src="./imagens/cavaleiro/male/Mknight4.png" alt=" personagem">
+                        <img id="iop5" src="./imagens/cavaleiro/male/Mknight5.png" alt=" personagem">
+                        <img id="iop6" src="./imagens/cavaleiro/male/Mknight6.png" alt=" personagem">
+                        <img id="iop7" src="./imagens/cavaleiro/male/Mknight7.png" alt=" personagem">
+                        <img id="iop8" src="./imagens/cavaleiro/male/Mknight8.png" alt=" personagem">
+                        <img id="iop9" src="./imagens/cavaleiro/female/Fknight01.png" alt=" personagem">
+                        <img id="iop10"src="./imagens/cavaleiro/female/Fknight2.png" alt=" personagem">
+                        <img id="iop11"src="./imagens/cavaleiro/female/Fknight3.png" alt=" personagem">
+                        <img id="iop12"src="./imagens/cavaleiro/female/Fknight4.png" alt=" personagem">
+                        <img id="iop13"src="./imagens/cavaleiro/female/Fknight5.png" alt=" personagem">
+                        <img id="iop14"src="./imagens/cavaleiro/female/Fknight6.png" alt=" personagem">
+                        <img id="iop15"src="./imagens/cavaleiro/female/Fknight7.png" alt=" personagem">
+                        <img id="iop16"src="./imagens/cavaleiro/female/Fknight8.png" alt=" personagem">
+                    </div>
+                </div>
+                <hr>
+                <div class="container_buttonsMaleFemale">
+                <div id="buttonMale"class="btt1direction"> <button  id="masculino" ></button></div>
+                <div id="rotate" class="btt2direction"><button  id="btLoop" ></button></div>
+                <div id="buttonFemale"class="btt3direction"> <button  id="feminino" ></button></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="espelho4"></div>
+
+
+
+
+    <article id="habilities" class="maintext">
+        <div>
+            <h1>
+                Habilidades
+            </h1>
+            <hr>
+        </div>
+        <div class="mainHabilidades">
+            <div class="habilidadesIcones">
+                <div></div>
+                <div class="Dica"><button id="habilidade01"></button><span class="DicaTexto">Facada</span></div>
+                <div class="Dica"><button  id="habilidade02"></button><span class="DicaTexto">Rachadura</span></div>
+                <div class="Dica"><button  id="habilidade03"></button><span class="DicaTexto">Avanço</span></div>
+                <div class="Dica"><button  id="habilidade04"></button><span class="DicaTexto">Muralha</span></div>
+                <div class="Dica"><button  id="habilidade05"></button><span class="DicaTexto">Poder</span></div>
+                <div class="Dica"><button  id="habilidade06"></button><span class="DicaTexto">Castelo</span></div>
+                <div class="Dica"></div>
+            </div>
+
+
+
+
+            <div id="item1Contexo" class="trocaContexto selected3">
+            <div class="habilidadeContexto">
+                <div id=img1> <img src="./imagens/cavaleiro/habilidades/facada.png" alt=""></div>
+                <div class="contextoH1">
+                    <h1>Facada</h1>
+                </div>
+            </div>
+                <div class="mainExplicacao">
+                    <p></p>
+                    <p>Inflinge danos terra e causa erosão nos inimigos</p>
+                </div>
+            <div class="mainTabela">
+                <table>
+                    <div class="table1">
+                        <thead>
+                            <tr>
+                                <td class="td0">
+                                    <h2>
+                                        Efeitos Normais
+                                    </h2>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td1">20 a 25 (danos de terra)</td>
+                            </tr>
+                            <tr>
+                                <td class="td2">Causa 6% de erosão</td>
+                            </tr>
+                        </tbody>
+                    </div>
+                    <div class="table2">
+                        <thead>
+                            <tr>
+                                <td class="td0">
+                                    <h2>
+                                        Efeitos Críticos
+                                    </h2>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td2">30 a 35 (danos de terra)</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">Causa 9% de erosão</td>
+                            </tr>
+                        </tbody>
+                    </div>   
+                </table>
+            </div>
+            </div>
+
+            <div id="item2Contexo" class="trocaContexto">
+                <div class="habilidadeContexto">
+                    <div id=img1> <img src="./imagens/cavaleiro/habilidades/rachadura.png" alt=""></div>
+                    <div class="contextoH1">
+                        <h1>Rachadura</h1>
+                    </div>
+                </div>
+                    <div class="mainExplicacao">
+                        <p></p>
+                        <p>Inflinge danos de terra em area</p>
+                    </div>
+                <div class="mainTabela">
+                    <table>
+                        <div class="table1">
+                            <thead>
+                                <tr>
+                                    <td class="td0">
+                                        <h2>
+                                            Efeitos Normais
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td1">21 a 27 (danos de terra)</td>
+                                </tr>
+                                <tr>
+                                    <td class="td2">Área de Efeito 3 células</td>
+                                </tr>
+                            </tbody>
+                        </div>
+                        <div class="table2">
+                            <thead>
+                                <tr>
+                                    <td class="td0">
+                                        <h2>
+                                            Efeitos Críticos
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td2">>29 a 34 (danos de terra)</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Área de Efeito 5 células</td>
+                                </tr>
+                            </tbody>
+                        </div>   
+                    </table>
+                </div>
+                </div>
+
+            <div id="item3Contexo" class="trocaContexto ">
+                    <div class="habilidadeContexto">
+                        <div id=img1> <img src="./imagens/cavaleiro/habilidades/anvanço.png" alt=""></div>
+                        <div class="contextoH1">
+                            <h1>Avanço</h1>
+                        </div>
+                    </div>
+                        <div class="mainExplicacao">
+                            <p></p>
+                            <p>Inflinge danos de terra e avança em direção do alvo</p>
+                        </div>
+                    <div class="mainTabela">
+                        <table>
+                            <div class="table1">
+                                <thead>
+                                    <tr>
+                                        <td class="td0">
+                                            <h2>
+                                                Efeitos Normais
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td1">35 a 40 (danos de terra)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2">Avança ate 4 células</td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                            <div class="table2">
+                                <thead>
+                                    <tr>
+                                        <td class="td0">
+                                            <h2>
+                                                Efeitos Críticos
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td2">45 a 50 (danos de terra)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">Avança até 4 células</td>
+                                    </tr>
+                                </tbody>
+                            </div>   
+                        </table>
+                    </div>
+            </div>
+
+            <div id="item4Contexo" class="trocaContexto">
+            <div class="habilidadeContexto">
+                <div id=img1> <img src="./imagens/cavaleiro/habilidades/muralha.png" alt=""></div>
+                <div class="contextoH1">
+                    <h1>Muralha</h1>
+                </div>
+            </div>
+                <div class="mainExplicacao">
+                    <p></p>
+                    <p>Melhora a resistencia mágica e física do alvo</p>
+                </div>
+            <div class="mainTabela">
+                <table>
+                    <div class="table1">
+                        <thead>
+                            <tr>
+                                <td class="td0">
+                                    <h2>
+                                        Efeitos Normais
+                                    </h2>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td1">Não causa dano</td>
+                            </tr>
+                            <tr>
+                                <td class="td2">Diminui 15% dos danos recebidos</td>
+                            </tr>
+                        </tbody>
+                    </div>
+                    <div class="table2">
+                        <thead>
+                            <tr>
+                                <td class="td0">
+                                    <h2>
+                                        Efeitos Críticos
+                                    </h2>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td2">Não causa dano</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">Diminui 25% dos danos recebidos</td>
+                            </tr>
+                        </tbody>
+                    </div>   
+                </table>
+            </div>
+            </div>
+
+            <div id="item5Contexo" class="trocaContexto">
+                <div class="habilidadeContexto">
+                    <div id=img1> <img src="./imagens/cavaleiro/habilidades/poder.png" alt=""></div>
+                    <div class="contextoH1">
+                        <h1>Poder</h1>
+                    </div>
+                </div>
+                    <div class="mainExplicacao">
+                        <p></p>
+                        <p>Aumenta vida e dano de ataque</p>
+                    </div>
+                <div class="mainTabela">
+                    <table>
+                        <div class="table1">
+                            <thead>
+                                <tr>
+                                    <td class="td0">
+                                        <h2>
+                                            Efeitos Normais
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td1">Aumenta 10% de danos</td>
+                                </tr>
+                                <tr>
+                                    <td class="td2">Aumenta 15% de vida</td>
+                                </tr>
+                            </tbody>
+                        </div>
+                        <div class="table2">
+                            <thead>
+                                <tr>
+                                    <td class="td0">
+                                        <h2>
+                                            Efeitos Críticos
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td2">Aumenta 14% de danos</td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">Aumenta 20% de vida</td>
+                                </tr>
+                            </tbody>
+                        </div>   
+                    </table>
+                </div>
+                </div>
+
+            <div id="item6Contexo" class="trocaContexto">
+                    <div class="habilidadeContexto">
+                        <div id=img1> <img src="./imagens/cavaleiro/habilidades/conquista.png" alt=""></div>
+                        <div class="contextoH1">
+                            <h1>Castelo</h1>
+                        </div>
+                    </div>
+                        <div class="mainExplicacao">
+                            <p></p>
+                            <p>Cria uma barricada</p>
+                        </div>
+                    <div class="mainTabela">
+                        <table>
+                            <div class="table1">
+                                <thead>
+                                    <tr>
+                                        <td class="td0">
+                                            <h2>
+                                                Efeitos Normais
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td1"><img src="./imagens/cavaleiro/habilidades/muralha2.png" alt=""> 700 pontos de vida</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td2"></td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                            <div class="table2">
+                                <thead>
+                                    <tr>
+                                        <td class="td0">
+                                            <h2>
+                                                Efeitos Críticos
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td2"><img src="./imagens/cavaleiro/habilidades/muralha2.png" alt=""> 1200 pontos de vida</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1"></td>
+                                    </tr>
+                                </tbody>
+                            </div>   
+                        </table>
+                    </div>
+                    </div>
+            
+
+
+
+                
+        </div>
+    </article>
+
+
+
+
+
+    <article id="carousel" class="midia">
+        <div>
+            <h1>
+                Mídia
+            </h1>
+        </div>
+        <hr>
+        <div class="midiaImage">
+            <div id="slider">
+                <img class="selected2" src="./imagens/comum/midia/primeira.jpg" alt="">
+                <img src="./imagens/comum/midia/segunda.jpg" alt="">
+                <img src="./imagens/comum/midia/terceira.jpg" alt="">
+                <img src="./imagens/comum/midia/quarta.jpg" alt="">
+                <img src="./imagens/comum/midia/quinta.jpg" alt="">
+                <img src="./imagens/comum/midia/sexta.jpg" alt="">
+                <img src="./imagens/comum/midia/setima.jpg" alt="">
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Saiba Mais</h4>
+                    <ul>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Assine</a></li>
+                        <li><a href="#">política de privacidade</a></li>
+                    </ul>
+                </div>
+                <section class="footer-col">
+                    <h4>Ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Personagens</a></li>
+                        <li><a href="#">Itens</a></li>
+                        <li><a href="#">Assinaturas</a></li>
+                    </ul>
+                </section>
+                <section class="footer-col">
+                    <h4>Controle</h4>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#character">Guerreiro</a></li>
+                        <li><a href="#habilities">Habilidades</a></li>
+                        <li ><a href="#carousel">Mídia</a></li>
+                    </ul>
+                </section>
+                <section class="footer-col">
+                    <h4>Conheça mais</h4>
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/MedievalWar-100752812475380"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://twitter.com/MedievalWar1"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/projectmedievalwar/channel/"><i class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://github.com/Frigofrnds/IDWeAlgProg"><i class="fab fa-github"></i></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+<script src="Js/warrior.js">
+
+</script>    
+
+</body>
+</html>
+
