@@ -1,0 +1,91 @@
+#h1{
+    
+    text-align: center;
+    color: white;
+    background-color: rgba(25,2,47,0.2);
+    backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+    border-radius: 15px;
+    font-family: 'MedievalSharp', cursive;
+   
+}
+
+section{
+    background-image: url(../AquivosGeral/fundoitens.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    width: 100vh;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#input1{
+    width: 400px;
+    border-radius: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#input2{
+    width: 400px;
+    border-radius: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#input3{
+    width: 400px;
+    border-radius: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#nome{
+    width: 400px;
+    border-radius: 25px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+#avaliar{
+    border-radius: 25px;
+    background-color: rgba(25,2,47,0.2);
+    backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+   color: white; 
+   font-family: 'MedievalSharp', cursive;
+  
+   
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 30px;
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    border-radius: 25px;
+   margin-top: 30px;
+  
+  
+}
+
+#resul{
+    background-color: rgba(25,2,47,0.2);
+    backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+    border-radius: 15px;
+    font-family: 'MedievalSharp', cursive;
+   
+}
+
+@media(max-width: 200px){
+    resultado{
+        height: 100vh;
+        
+
+    }
+}
+
+
+
+
+
