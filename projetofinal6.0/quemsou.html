@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/quemsou.css" rel="stylesheet">
+    <link href="itens.js" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="./css/estilocomum.css" rel="stylesheet">
+    <title>Document</title>
+
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./favIcon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favIcon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favIcon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favIcon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favIcon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favIcon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favIcon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favIcon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favIcon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favIcon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favIcon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favIcon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#846543">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#846543">
+
+
+
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+<!--Esta é a Barra de Navegação-->
+        <div class="container-fluid">
+
+        <nav class=" row navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MedievalWar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown"  >
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="quemsou.html">QuemSou</a>
+                    </li>
+                    <li class="nav-item dropdown bg-dark">
+                        <a class="nav-link  dropdown-toggle bg-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Personagens
+                        </a>
+                        <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdownMenuLink">
+                            <li id="dropBtEst"><a class="dropdown-item text-light text-center" href="cavaleiro.html">Guerreiro</a></li>
+                            <li id="dropBtEst2"><a class="dropdown-item text-light text-center" href="arqueiro.html">Arqueiro</a></li>
+                            <li id="dropBtEst3"><a class="dropdown-item text-light text-center"href="mago.html">Mago</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+            <div class="container-fluid col-md-10 col-sm-10" id="h1">
+                <div id="mainRow" class="row">
+                <h1>Veja Qual Personagem é Compativel com Você</h1>
+                </div>
+            </div>
+        
+    <div class="container-fluid mt-3 d-flex justify-content-center">
+
+            <input type="text"  placeholder="Digite o seu nome" id="nome">
+
+    </div>
+
+    <div class="container-fluid mt-4 d-flex justify-content-center">
+
+        <input type="number" min="0" max="10" placeholder="De 0 a 10 qual é a sua coragem" id="input1">
+        
+    </div>
+
+    <div class="container-fluid mt-4 d-flex justify-content-center">
+        
+        <input type="number" min="0" max="10" placeholder="De 0 a 10 qual é a sua habilidade" id="input2">
+            
+    </div>
+
+
+    <div class="container-fluid mt-4 d-flex justify-content-center" >
+
+    <input type="number" min="0" max="10" placeholder="De 0 a 10 qual é a sua persistencia" id="input3" >
+
+    </div>
+
+            <div class="container-fluid mt-4 d-flex justify-content-center">
+            <input type="submit" value="Avaliar" id="avaliar" onclick="botao()" >
+
+            </input>
+            </div>
+            <div class="container-fluid col-sm-12" id="resul">
+            <P id="resultado">
+
+            </P>
+        </div>
+</section>
+
+    <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Saiba Mais</h4>
+                            <ul>
+                                <li><a href="home.html">História</a></li>
+                                <li><a href="login.html">Assine</a></li>
+                                <li><a href="#">política de privacidade</a></li>
+                            </ul>
+                        </div>
+                        <article class="footer-col">
+                            <h4>Ajuda</h4>
+                            <ul>
+                                <li><a href="quemsou.html">Quem Sou</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="#">Assinaturas</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer-col">
+                            <h4>Controle</h4>
+                            <ul>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="cavaleiro.html">Guerreiro</a></li>
+                                <li><a href="mago.html">Mago</a></li>
+                                <li><a href="arqueiro.html">Arqueiro</a></li>
+                            </ul>
+                        </article>
+                        <article class="footer-col">
+                            <h4>Conheça mais</h4>
+                            <div class="social-links">
+                                <a target="_blank" href="https://www.facebook.com/MedievalWar-100752812475380"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_blank" href="https://twitter.com/MedievalWar1"><i class="fab fa-twitter"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/projectmedievalwar/channel/"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="https://github.com/Frigofrnds/IDWeAlgProg"><i class="fab fa-github"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+    </footer>
+<script type="text/javascript">
+                var simulacao = [];
+
+                function total(input1, input2, input3){
+                return input1 + input2 + input3;
+                }
+
+                function botao(){
+                    var input1_ = document.getElementById("input1");
+                    var input2_ = document.getElementById("input2");
+                    var input3_ = document.getElementById("input3");
+                    var nome_ = document.getElementById("nome");
+
+                    var input1 = parseInt(input1_.value);
+                    var input2 = parseInt(input2_.value);
+                    var input3 = parseInt(input3_.value);
+
+                var total_final = total(input1, input2, input3);
+
+                var resultado = document.getElementById("resultado");
+
+                var interpretacao = "";
+                
+                if (total_final < 10){
+                    interpretacao = "O personagem que combina com você é:Cavaleiro";
+                } else if (total_final  >= 10 &&  total_final  < 20){
+                    interpretacao ="O personagem que combina com você é:Mago";
+                } else if (total_final >= 20 &&  total_final  < 30){
+                    interpretacao = "O personagem que combina com você é:Arqueiro";
+                } else {
+                    interpretacao = "Parabèns!!! Você é compativel com todos os personagens";
+                }
+                resultado.innerHTML = `${interpretacao}`;
+                
+                var tudo = {
+                    "nome" : nome_.value,
+                    "interpretacao" : interpretacao
+                };
+
+                simulacao.push(tudo);
+
+                var text = JSON.stringify(simulacao);
+                localStorage.setItem("Itens", text);
+
+                }
+
+</script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
