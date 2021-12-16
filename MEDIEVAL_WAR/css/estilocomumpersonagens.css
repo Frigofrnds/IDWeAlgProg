@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'MedievalSharp', cursive;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.container_funcoes{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-funcoes-item{
+    width: 32%;
+    height: 65px;
+
+}
+.icone1{
+    width: 55px;
+    height: 55px;
+    }
+.hoverIcone1{
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.hoverIcone1:hover{
+    border-radius: 15%;
+    background-color: rgba(255, 174, 0, 0.8);
+}
+.icone2{
+    padding: 5px;
+    height: 65px;
+
+}
+.hoverIcone2{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone2:hover{
+    border-radius: 15%;
+    background-color: rgba(180, 173, 173, 0.8);
+}
+.icone3{
+    padding: 5px;
+    height: 65px;
+}
+.hoverIcone3{
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hoverIcone3:hover{
+    border-radius: 15%;
+    background-color: rgba(245, 198, 98, 0.8);
+}
+.container_texto{
+    display: flex;
+    text-align: center;
+}
+.texto1{
+    width: 33%;
+}
+.texto2{
+    width: 33%;
+}
+.texto3{
+    width: 33%;
+}
+
+
+
+
+.maintext{
+    height: 695px;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    color: white;
+    border:solid 1px black;
+}
+.maintext h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.maintext div hr{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mainHabilidades{
+    width: 100%;
+    height: 535px;
+}
+.habilidadesIcones{
+    display: flex;
+    height: 65px;
+    gap: 2%;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.habilidadesIcones div{
+    height: 55px;
+    width: 55px;
+    display: flex;
+
+}
+.habilidadesIcones button{
+    width: 55px;
+    height: 54px;
+    cursor: pointer;
+}
+
+
+#habilidade01{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade01:hover{
+    width: 56px;
+    height: 55px;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 9px;
+}
+#habilidade01:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+#habilidade02{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade02:hover{
+    width: 56px;
+    height: 55px;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 9px;
+}
+#habilidade02:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+#habilidade03{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade03:hover{
+    width: 54px;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 9px;
+}
+#habilidade03:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+#habilidade04{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade04:hover{
+    width: 56px;
+    height: 55px;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 9px;
+}
+#habilidade04:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+#habilidade05{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade05:hover{
+    width: 56px;
+    height: 55px;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 9px;
+}
+#habilidade05:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+#habilidade06{
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 11px;
+    width: 51px;
+    height: 51px;
+}
+#habilidade06:hover{
+    width: 56px;
+    height: 55px;
+    background-color: rgba(255, 174, 0, 0.8);
+    border-radius: 9px;
+}
+#habilidade06:active{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10;
+}
+
+
+
+
+.trocaContexto{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    opacity: 0;
+}
+.selected3{
+    opacity: 1;
+}
+
+
+
+
+.habilidadeContexto{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#img1{
+    height: 55px;
+    width: 55px;
+    z-index: 0;
+    position: relative;
+    margin-top:15px ;
+    left: 15%;
+}
+.contextoH1{
+width: fit-content;
+position: relative;
+left: 20%;
+transform: translateX(-50%);
+z-index: 0;
+}
+.mainExplicacao{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 55px;
+    z-index: 0;
+}
+.mainTabela{
+    position: relative;
+    left: 15%;
+    width: 350px;
+    z-index: 0;
+}
+
+.table1{
+    width: 350px;
+}
+.table2{
+    width: 350px;
+}
+.td0{
+    width: 350px;
+    background-color: rgba(107, 103, 103, 0.8);
+    text-indent: 15px;
+
+}
+
+.td1{
+    background-color: rgba(219, 210, 210, 0.8);
+    text-indent: 30px;
+
+}
+.td2{
+    text-indent: 30px;
+    background-color: rgba(180, 173, 173, 0.8);
+}
+
+
+
+
+.midia{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 90vh;
+    width: 80%;
+    margin-left:10%;
+    background-color: rgba(21, 25, 29, 0.5);
+    display: inline-block;
+    color: white;
+    border:solid 1px black;
+}
+.midia div h1{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.midiaImage{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+#slider{
+    border:solid 1px black;
+    width: 96%;
+    height: 70vh;
+    position: relative;
+}
+#slider img{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 800ms;
+}
+#slider img.selected2{
+opacity: 1;
+}
+
+
+.Dica{
+    position: relative; 
+    margin: 30px;
+    display: inline-block;
+}
+.Dica:hover .DicaTexto{
+    visibility: visible;
+}
+.DicaTexto{
+    position: absolute;
+    visibility: hidden;
+    font-size: 15px; 
+    min-width: 100px;
+    text-align: justify;
+    background: rgba(133, 113, 0, 0.7);
+    color:rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 5px  0; 
+    border-radius: 6px; 
+    bottom: 100%; 
+    left: 50%; 
+    transform:translateX(-50%);
+    margin-bottom: 5px;
+    border:solid 1px rgb(255, 255, 255);
+}
+
+.DicaTexto:after{
+    content: " "; 
+    position: absolute; 
+    top: 100%; 
+    left: 50%; 
+    margin-left: -5px; 
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+
+@media screen and (max-width: 910px){
+    .habilidadesIcones{
+        gap:0;
+    }
+}
+@media screen and (max-width: 771px){
+    .mainHabilidades{
+        display: flex;
+    }
+    .habilidadesIcones{
+        display: inline-block;
+        width: 65px;
+        z-index: 3;
+    }
+    .mainExplicacao{
+        left: 30%;
+        width: 250px;
+        margin: 15px;
+    }
+    #img1{
+        left:30% ;
+        margin-top:25px ;
+    }
+    .contextoH1{
+    left: 50%;
+    }
+    .mainTabela{
+        margin: 15px;
+        left: 25%;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 586px){
+    .mainTabela{
+        position: relative;
+        left: 19%;
+        width: fit-content;
+    }
+    
+    .table1{
+        width: fit-content;
+    }
+    .table2{
+        width: fit-content;
+    }
+    .td0{
+        width: fit-content;
+        text-indent: 0px;
+    
+    }
+    
+    .td1{
+        text-indent: 0px;
+    
+    }
+    .td2{
+        text-indent: 0px;
+    }
+    
+}
+@media screen and (max-width: 490px){
+    .midia{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 150px;
+    }
+    .midia div h1{
+        padding: 5px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left: 0;
+        margin: 0;
+        margin-bottom: 150px;
+    }
+    .mainExplicacao{
+        left:60%;
+        width: 250px;
+        transform: translateX(-50%);
+    }
+    #img1{
+        left:60% ;
+        margin-top:25px ;
+    }
+    .contextoH1{
+    left: 70%;
+    }
+    .mainTabela{
+        left: 60%;
+        width: fit-content;
+        transform: translateX(-50%);
+    }   
+}
+

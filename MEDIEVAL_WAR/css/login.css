@@ -1,0 +1,42 @@
+section{
+    background-image: url(../imagens/login/loginforum.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'MedievalSharp', cursive;
+
+}
+.login{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: rgba(25,2,47,0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    color:darkgray;
+}
+@media(max-width: 425px){
+    .login{
+        width: 325px;
+    }
+    }
+    @media(max-width: 325px){
+        .login{
+            width: 225px;
+        }
+        }

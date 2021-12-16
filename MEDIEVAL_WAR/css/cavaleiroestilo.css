@@ -1,0 +1,291 @@
+
+
+body{
+    background-image: url(../imagens/cavaleiro/backgroundknight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+
+
+.container_corpo_filho{
+    width: 100%;
+    display: inline-flex;
+
+}
+
+
+.navLateral{
+    position: static;
+    width:400px;
+    height:100% ;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+    color: white;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+.mago{
+    text-align: center;
+    padding-top: 15px;
+}
+.texto{
+    text-align: justify;
+    text-indent: 30px;
+    margin:5px;
+    padding: 5px;
+}
+.funcoes{
+    width: 100%;
+    display: inline-block;
+}
+#textofuncoes{
+    text-align: center;
+}
+
+
+
+.hoverIcone1{
+    background-image: url(../imagens/cavaleiro/ataque.png);
+}
+.hoverIcone2{
+    background-image: url(../imagens/cavaleiro/resistencia.png);
+}
+.hoverIcone3{
+        background-image: url(../imagens/cavaleiro/forca.png);
+}
+
+
+.personagens{
+    width: 180px;
+    height: 348px;
+    margin-top: 8.5%;
+    background-color: rgba(21, 25, 29, 0.5);
+    border:solid 1px black;
+    color: white;
+}
+.personagens hr{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.heroi{
+    text-align: center;
+    height: 40px;
+    margin-bottom: 0;
+}
+.heroi h1{
+    height: 100%;
+}
+.heroi  hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
+.espelho3{
+    height: 261px;
+    width: 100%;
+}
+.guerreiroImg{
+    width: 100%;
+    height: 250px;
+}
+.guerreiroImg img{
+    position: absolute;
+    opacity: 0;
+}
+.guerreiroImg img.selected{
+    opacity: 1;
+}
+.container_buttonsMaleFemale{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+.btt1direction{
+    background-image: url(../imagens/male2png.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    margin-top: 0;
+    cursor: pointer;
+    width: 33%;
+}
+#masculino{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+.btt2direction{
+    height: 40px;
+    background-image: url(../imagens/loop2323.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+#btLoop{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+.btt3direction{
+    height: 40px;
+    background-image: url(../imagens/female.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33%;
+    margin-top: 0;
+    cursor: pointer;
+}
+#feminino{
+    width: 100%;
+    height: 40px;
+    opacity: 0;
+}
+
+
+
+
+
+#habilidade01{
+    background-image: url(../imagens/cavaleiro/habilidades/facada.png);
+}
+
+#habilidade02{
+    background-image: url(../imagens/cavaleiro/habilidades/rachadura.png);
+}
+
+#habilidade03{
+    background-image: url(../imagens/cavaleiro/habilidades/anvanço.png);
+}
+
+#habilidade04{
+    background-image: url(../imagens/cavaleiro/habilidades/muralha.png);
+}
+
+#habilidade05{
+    background-image: url(../imagens/cavaleiro/habilidades/poder.png);
+}
+
+#habilidade06{
+    background-image: url(../imagens/cavaleiro/habilidades/conquista.png);
+}
+
+
+.espelho2{
+    width: 10%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 910px){
+    .espelho2{
+        width: 50px;
+    }
+    .navLateral{
+        margin-left: 10%;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 663px){
+    .espelho2{
+        width: 20px;
+    }
+    .navLateral{
+    margin-left: 5%;
+    }
+
+
+}
+@media screen and (max-width: 586px){
+    .espelho2{
+        width: 0;
+        height: 0;
+    }
+    .navLateral{
+    margin-top: 12%;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    width: 82%;
+    }
+
+    .espelho4{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .personagens{ 
+        margin-top: 600px;
+        position:absolute;
+        top:10%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+    }
+}
+@media screen and (max-width: 490px){
+    .navLateral{
+        margin: 0;
+        transform:translateX(0);
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .personagens{ 
+        top:0;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0.5%;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    .espelho2{
+        width:0;
+    }
+    .navLateral{
+        width: 100%;
+        margin: 0;
+        padding: 5%;
+        margin-bottom: 30px;
+    }
+    .personagens{ 
+        margin-top: 580px;
+        position:absolute;
+    }
+    .espelho4{
+        width: 100%;
+        height: 402px;
+    }
+    .maintext{
+        width: 100%;
+        margin-left:0;
+    }
+    .maintext h1{
+        padding: 0;
+    }
+    .texto1{
+        width: 15%;
+    }
+}
